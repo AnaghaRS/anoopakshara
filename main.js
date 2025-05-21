@@ -37,19 +37,7 @@ $(".fa-music").click(function(){
 
 })
 
-// nav toggle
-$(document).ready(function(){
-  // Nav toggle
-  $(".hamburger-btn").click(function(){
-    $(".header .nav").slideToggle();
-  });
-  
-  // Close menu when clicking menu items on mobile
-  $(".header .nav a").click(function(){
-    if($(window).width() < 768){
-      $(".header .nav").slideToggle();
-    }
-  });
+
   
   // Fixed header on scroll
   $(window).scroll(function(){
@@ -150,28 +138,28 @@ const color=[
     {
        name:'pink' ,
        code:'#ff69b4',
-       url: 'colors/pink.css'
+       url: 'pink.css'
     },
        {
        name:'blue' ,
        code:'#3e99f4',
-       url: 'colors/blue.css'
+       url: 'blue.css'
     },
        {
        name:'green' ,
        code:'#0dfcd8',
-       url: 'colors/green.css'
+       url: 'green.css'
     },
        {
        name:'yellow' ,
        code:'#ff9801',
-       url: 'colors/yellow.css'
+       url: 'yellow.css'
     },
     
        {
        name:'red' ,
        code:'#cc3a3b',
-       url: 'colors/red.css'
+       url: 'red.css'
     }
 ]
 
