@@ -1,0 +1,44 @@
+.fa-music,
+.preloader .loader i,
+.couple-section .couple i.fa-heart,
+.couple-section .social-links a i,
+.couple-section .couple h3, 
+body.dark .header .nav ul li a.active,
+.couple-section .social-links .front,
+.header .nav ul li a.active,
+.header .nav ul li a:hover,
+body.dark .header .nav ul li a:hover,
+.story-section .story-text h3,
+.story-section .story-item i,
+.event-section .event-item-inner span.time,
+.event-section .event-item-inner span.date
+{
+    color: #ff9801; /* or any accent color */
+}
+.couple-section .couple img,
+.couple-section .social-links a i,
+.event-section .event-item-inner:before,
+.people-section .people-item-inner
+{
+  border: 2px solid #ff9801; /* now visible */
+  /* border-radius: 5px;        optional: rounded corners */
+}
+.preloader .loader:before {
+  border-right: 3px solid #ff9801;
+}
+.fa-music.pause:after,
+.event-section, 
+.setting .s-toggle-btn,
+body.dark .people-section .filter-btn.active,
+.people-section .filter-btn.active,
+.couple-section .social-links a:hover .box,
+.couple-section .social-links .bottom
+{
+  background-color: #ff9801;
+}
+.couple-section .social-links .bottom i {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+ .footer .footer-content .couple-name img{
+filter: hue-rotate(45deg);}
