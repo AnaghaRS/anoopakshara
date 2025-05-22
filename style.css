@@ -639,6 +639,19 @@ z-index: -1;
  color: #555555;
  margin: 0;
 }
+.event-section .event-item-inner .location-link {
+ font-size: 16px;
+ line-height: 26px;
+ color: #555555;
+ margin: 0;
+ text-decoration: none;
+ display: block;
+}
+
+.event-section .event-item-inner .location-link:hover {
+ color: #007bff;
+ text-decoration: underline;
+}
 
 /*--
 .event-section .event-item-inner img{
