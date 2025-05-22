@@ -37,7 +37,19 @@ $(".fa-music").click(function(){
 
 })
 
-
+// nav toggle
+$(document).ready(function(){
+  // Nav toggle
+  $(".hamburger-btn").click(function(){
+    $(".header .nav").slideToggle();
+  });
+  
+  // Close menu when clicking menu items on mobile
+  $(".header .nav a").click(function(){
+    if($(window).width() < 768){
+      $(".header .nav").slideToggle();
+    }
+  });
   
   // Fixed header on scroll
   $(window).scroll(function(){
